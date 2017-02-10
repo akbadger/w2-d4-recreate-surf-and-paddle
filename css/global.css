@@ -60,3 +60,19 @@ header .row-navbar > :last-child {
     font-size: 20px;
 }
 
+blockquote {
+    color: #003366;
+    font-size: 20px;
+}
+
+.container h1 {
+    color: #003366;
+}
+
+.container p {
+    font-size: 16px;
+}
+
+a {
+    color: grey;
+}
