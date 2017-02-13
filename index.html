@@ -6,65 +6,149 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/global.css" />
 </head>
 
 <body>
     <header>
-        <div class="layer">
-            <div class="container-fluid">
-                <div class="row row-navbar">
-                    <div class="col-sm-6">
-                        <img src="img/logo.svg" alt="logo" />
-                        <span>surf &amp; paddle co. blog</span>
-                    </div>
-                    <div class="col-sm-6">
-                        About Search
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-logo">
+                    <img src="img/logo.svg" alt="surf and paddle" />
+                    <span> Surf &amp; Paddle </span>
                 </div>
-                <div class="row row-heading">
-                    <div class="heading">surf &amp; paddle co.</div>
-                    <div class="sub-heading">An IronYard Academy Project Est. Fall 2013</div>
+
+                <div class="col-sm-6 col-nav text-right">
+                    <a href="" class="show">About</a>
+                    <a href="" class="show">Search <i class="glyphicon glyphicon-search"></i></a>
+                </div>
+                    <!--dropdown menu for tablet/mobile-->
+                    <div class="dropdown text-right">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <!--end of dropdown menu for tablet/mobile-->
+                    
+                
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-brand text-center">
+                    <h1 class="text-uppercase">Surf &amp; Paddle Co.</h1>
+                    <span>An Iron Yard Academy Project Est. Winter 2017</span>
                 </div>
             </div>
         </div>
     </header>
-    <br/>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-7">
-                <h1 class="text-uppercase">A fantastic engaging <br/>headline goes here.</h1>
-                    <img src="https://unsplash.it/400/400?image=1074" alt="profile photo" class="img-circle" width="30px"/> <span>Anne Marie on Monday Oct 7th 9:22pm</span>
-                    <br/>
-                    <br/>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sint excepturi obcaecati magnam eaque, quod impedit voluptas minima pariatur. Corporis quos commodi eum, harum qui, esse ipsum veritatis optio aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quam delectus consequatur, corrupti dolores ipsum itaque? Amet pariatur similique harum fuga neque nam magnam in ex nihil, voluptate illum odio.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptates deserunt, ipsum odio nulla quae beatae illo, sit quasi, deleniti aliquam fugiat et atque cum delectus tempore molestias quia sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quaerat consequuntur minus incidunt pariatur iusto, error fugit voluptates laborum voluptatum. Quaerat earum, officia illo. Labore unde adipisci sequi quae deleniti!</p>
-                    <br/>
-                    <blockquote class="text-uppercase">
-                        Whoa, that's radical
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 col-sm-offset-1">
+                    <h1 class="text-uppercase">A fantastical engaging headline goes here.</h1>
+                    <div>
+                        <img src="http://unsplash.it/200/200?random" alt="Author Photo" class="img-circle img-author" /> <strong class="text-info">Anne Marie</strong> <span class="text-muted">on Friday, February 10th, 2017</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis blanditiis expedita necessitatibus eaque corrupti perspiciatis doloremque illo natus at velit. Quis quia velit aut illo incidunt at praesentium doloremque? Odit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque magnam animi provident id sit dolore in reiciendis veritatis asperiores tempora, ullam vel eligendi! Possimus ipsum odit recusandae harum, veritatis distinctio.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis blanditiis expedita necessitatibus eaque corrupti perspiciatis doloremque illo natus at velit. Quis quia velit aut illo incidunt at praesentium doloremque? Odit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque magnam animi provident id sit dolore in reiciendis veritatis asperiores tempora, ullam vel eligendi! Possimus ipsum odit recusandae harum, veritatis distinctio.</p>
+                    <blockquote class="text-uppercase text-primary">
+                        <h3>Whoa, That's Radical!</h3>
                     </blockquote>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptates deserunt, ipsum odio nulla quae beatae illo, sit quasi, deleniti aliquam fugiat et atque cum delectus tempore molestias quia sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quaerat consequuntur minus incidunt pariatur iusto, error fugit voluptates laborum voluptatum. Quaerat earum, officia illo. Labore unde adipisci sequi quae deleniti!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iste suscipit a, vero nemo tenetur officia quia assumenda minima reiciendis iusto quos quae facilis fuga et laboriosam quas quam, totam!</p>
-            </div>
-            <br/>
-            <div class="col-sm-4">
-                <img src="https://unsplash.it/400/400?image=1074" alt="profile photo" class="img-circle center-block" width="75px"/>
-                <br/>
-                <div class= "text-center">Anne Marie</div>
-                <div class="text-center small-text"> <a href="?">Twitter</a> <a href="?">Facebook</a> <a href="?">Instagram</a></div>
-                <br/>
-                <img src="http://unsplash.it/400/500?image=1035" alt="amazing photo" class="center-block"/>
-                <a href="?" class="text-right">About This Ad</a>
-               
-                
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis blanditiis expedita necessitatibus eaque corrupti perspiciatis doloremque illo natus at velit. Quis quia velit aut illo incidunt at praesentium doloremque? Odit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque magnam animi provident id sit dolore in reiciendis veritatis asperiores tempora, ullam vel eligendi! Possimus ipsum odit recusandae harum, veritatis distinctio.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis blanditiis expedita necessitatibus eaque corrupti perspiciatis doloremque illo natus at velit. Quis quia velit aut illo incidunt at praesentium doloremque? Odit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque magnam animi provident id sit dolore in reiciendis veritatis asperiores tempora, ullam vel eligendi! Possimus ipsum odit recusandae harum, veritatis distinctio.</p>
+                    <a href="" class="button">
+                        <span class="button-icon">
+                            <i class="glyphicon glyphicon-comment"></i>
+                        </span>
+                        <span class="button-label">
+                            Read Comments
+                        </span>
+                    </a>
+                    <a href="" class="button">
+                        <span class="button-icon">
+                            <i class="glyphicon glyphicon-cloud-upload"></i>
+                        </span>
+                        <span class="button-label">
+                            Read Later
+                        </span>
+                    </a>
+                    <a href="" class="button button-blue">
+                        <span class="button-icon">
+                            <i class="glyphicon glyphicon-share"></i>
+                        </span>
+                        <span class="button-label">
+                            Share This Post
+                        </span>
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="text-center">
+                        <br/><br/><br/>
+                        <img src="http://unsplash.it/200/200?random" alt="Author Photo" class="img-circle img-author-lg" /> <br/><br/>
+                        <strong class="text-info">Anne Marie</strong><br/>
+                        <span class="text-muted">
+                            <a href="">Twitter</a> |
+                            <a href="">Facebook</a> |
+                            <a href="">Instagram</a>
+                            </span>
+                        <br/><br/>
+                    </div>
+                    <img src="https://unsplash.it/600/600?random" alt="story photo" />
+                    <br/><br/>
+                    <h4 class="text-uppercase text-primary"> SIDEBAR HEADER</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam molestiae quibusdam iste atque ipsa, mollitia saepe nam, eligendi possimus, tempore tempora aut quos in! Consectetur voluptatem harum, ex consequatur sapiente.</p>
+                </div>
             </div>
         </div>
-    </div>
-
-
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <hr/>
+                    <h2 class="text-uppercase">Most Popular Posts</h2>
+                </div>
+            </div>
+        </div>
+        <section class="posts">
+            <div class="post" id="post1">
+                <h3>Post Title</h3>
+            </div>
+            <div class="post" id="post2">
+                <h3>Post Title</h3>
+            </div>
+            <div class="post" id="post3">
+                <h3>Post Title</h3>
+            </div>
+            <div class="post" id="post4">
+                <h3>Post Title</h3>
+            </div>
+        </section>
+        <section class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        Copyright &copy; 2017 TIY
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <a href "">Nav Item 1</a> |
+                        <a href "">Nav Item 2</a> |
+                        <a href "">Nav Item 3</a> |
+                        <a href "">Nav Item 4</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    
 </body>
-
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 </html>
