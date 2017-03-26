@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: linear-gradient(rgba(214, 214, 194, 0.75), rgba(0, 26, 51, 0.75)), url(https://unsplash.it/400/400?image=476);
+    background: linear-gradient(rgba(214, 214, 194, 0.75), rgba(0, 26, 51, 0.75)), url(https://unsplash.it/400/400/?image=476);
     background-size: cover;
 }
 
@@ -50,9 +50,10 @@ header .col-brand {
 
 header .col-brand h1 {
     color: white;
-    font-size: 80px;
+    font-size: 60px;
     margin: 0;
-    padding: 60px;
+    padding: 100px;
+    font-weight: 200;
 }
 
 header .col-brand span {
