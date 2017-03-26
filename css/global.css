@@ -6,8 +6,13 @@ img {
     width: 100%;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
 header {
-    background: linear-gradient(rgba(47, 117, 179, 0.75), rgba(47, 117, 179, 0.75)), url(https://unsplash.it/400/400?image=1053);
+    background: linear-gradient(rgba(214, 214, 194, 0.75), rgba(0, 26, 51, 0.75)), url(https://unsplash.it/400/400?image=476);
     background-size: cover;
 }
 
@@ -40,13 +45,14 @@ header .col-nav a:last-child {
 }
 
 header .col-brand {
-    padding: 100px 0;
+    padding: 150px;
 }
 
 header .col-brand h1 {
     color: white;
     font-size: 80px;
     margin: 0;
+    padding: 60px;
 }
 
 header .col-brand span {
@@ -94,6 +100,7 @@ main .button-blue .button-label {
 
 p {
    line-height: 22px;
+   letter-spacing: 1.2px;
 }
 
 footer .post {
@@ -102,41 +109,42 @@ footer .post {
     padding: 20px;
     display: flex;
     align-items: flex-end;
+    color: white;
 }
 #post1:hover {
-    background-image: url(https://unsplash.it/600/600?random);
+    background-image: url(https://unsplash.it/400/400?image=884);
 }
 
 #post2:hover {
-    background-image: url(https://unsplash.it/600/600?random);
+    background-image: url(https://unsplash.it/400/400?image=885);
 }
 
 #post3:hover {
-    background-image: url(https://unsplash.it/600/600?random);
+    background-image: url(https://unsplash.it/400/400?image=862);
 }
 
 #post4:hover {
-    background-image: url(https://unsplash.it/600/600?random);
+    background-image: url(https://unsplash.it/400/400?image=838);
 }
 
 #post1 {
-    background-image: linear-gradient(rgba(47, 117, 179, 0.75), rgba(47, 117, 179, 0.75)), url(https://unsplash.it/600/600?random);
+    background: linear-gradient(rgba(214, 214, 194, 0.75), rgba(0, 26, 51, 0.75)), url(https://unsplash.it/400/400?image=884);
     background-size: cover;
     
 }
 
 #post2 {
-    background-image: linear-gradient(rgba(47, 117, 179, 0.75), rgba(47, 117, 179, 0.75)), url(https://unsplash.it/600/600?random);
+    background: linear-gradient(rgba(214, 214, 194, 0.75), rgba(0, 26, 51, 0.75)), url(https://unsplash.it/400/400?image=885);
     background-size: cover;
 }
 
 #post3 {
-    background-image: linear-gradient(rgba(47, 117, 179, 0.75), rgba(47, 117, 179, 0.75)), url(https://unsplash.it/600/600?random);
+    background: linear-gradient(rgba(214, 214, 194, 0.75), rgba(0, 26, 51, 0.75)), url(https://unsplash.it/400/400?image=862);
     background-size: cover;
 }
 
 #post4 {
-    background-image: linear-gradient(rgba(47, 117, 179, 0.75), rgba(47, 117, 179, 0.75)), url(https://unsplash.it/600/600?random);
+    background: linear-gradient(rgba(214, 214, 194, 0.75), rgba(0, 26, 51, 0.75)), url(https://unsplash.it/400/400?image=838);
     background-size: cover;
 }
 
@@ -174,4 +182,13 @@ footer .post {
     }
     
     }
-}
+
+@media screen and (min-width: 300px) {
+    header .col-brand {
+        padding: 10px;
+    }
+    header .col-nav > .text-right {
+        display: none !important;
+    }
+    
+    }
